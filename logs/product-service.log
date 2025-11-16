@@ -1294,3 +1294,289 @@ org.springframework.web.servlet.resource.NoResourceFoundException: No static res
 2025-11-15 18:59:06 INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 208 ms
 2025-11-15 19:00:28 INFO  com.service.packages.controller.ProductController - Received request to add product with image: 212121
 2025-11-15 19:00:28 ERROR com.service.packages.controller.ProductController - Validation error: Invalid image format. Allowed formats: JPEG, PNG, GIF, WEBP
+2025-11-15 20:09:08 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m6s495ms).
+2025-11-15 20:14:31 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m22s875ms).
+2025-11-15 20:29:53 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m21s671ms).
+2025-11-15 21:28:04 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m11s501ms).
+2025-11-15 22:45:10 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m5s969ms).
+2025-11-15 23:29:50 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m39s845ms).
+2025-11-16 00:52:59 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m37s752ms).
+2025-11-16 01:12:55 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m56s784ms).
+2025-11-16 02:41:30 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28m34s794ms).
+2025-11-16 04:00:08 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m37s483ms).
+2025-11-16 05:18:26 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m17s938ms).
+2025-11-16 06:29:11 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h10m45s110ms).
+2025-11-16 07:30:15 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m4s375ms).
+2025-11-16 08:31:12 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h57s361ms).
+2025-11-16 09:49:27 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m14s874ms).
+2025-11-16 10:35:21 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m54s157ms).
+2025-11-16 10:52:56 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m34s781ms).
+2025-11-16 10:58:29 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m32s400ms).
+2025-11-16 11:04:00 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m31s673ms).
+2025-11-16 11:08:52 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m51s252ms).
+2025-11-16 11:38:53 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m31s668ms).
+2025-11-16 11:55:53 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m69ms).
+2025-11-16 12:04:06 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m12s402ms).
+2025-11-16 12:52:58 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m51s690ms).
+2025-11-16 13:23:40 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m42s745ms).
+2025-11-16 13:38:55 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m14s387ms).
+2025-11-16 13:49:41 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m45s823ms).
+2025-11-16 13:51:51 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m10s951ms).
+2025-11-16 13:57:30 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m38s367ms).
+2025-11-16 14:42:34 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m3s835ms).
+2025-11-16 14:56:42 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m8s57ms).
+2025-11-16 15:16:45 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m32s88ms).
+2025-11-16 15:55:50 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s639ms).
+2025-11-16 16:20:10 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m15s709ms).
+2025-11-16 16:27:35 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s331ms).
+2025-11-16 16:30:02 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m56s997ms).
+2025-11-16 16:35:53 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m20s410ms).
+2025-11-16 16:40:59 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m36s27ms).
+2025-11-16 16:45:27 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s434ms).
+2025-11-16 16:53:50 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m22s718ms).
+2025-11-16 17:27:11 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s715ms).
+2025-11-16 17:46:07 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s252ms).
+2025-11-16 17:56:31 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s496ms).
+2025-11-16 17:57:05 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-16 17:57:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-16 17:57:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-16 18:07:51 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-16 18:07:51 INFO  com.service.packages.Products - Starting Products using Java 21.0.8 with PID 3321 (/Users/kameshchandima/Desktop/projects/product_adi/target/classes started by kameshchandima in /Users/kameshchandima/Desktop/projects/product_adi)
+2025-11-16 18:07:51 DEBUG com.service.packages.Products - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-16 18:07:51 INFO  com.service.packages.Products - No active profile set, falling back to 1 default profile: "default"
+2025-11-16 18:07:51 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-16 18:07:51 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2025-11-16 18:07:52 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-16 18:07:52 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-16 18:07:52 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-16 18:07:52 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-16 18:07:52 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-16 18:07:52 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 627 ms
+2025-11-16 18:07:52 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-16 18:07:52 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-16 18:07:52 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-16 18:07:52 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-16 18:07:52 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-16 18:07:52 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6282f1eb
+2025-11-16 18:07:52 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-16 18:07:52 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-16 18:07:53 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-16 18:07:53 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-16 18:07:53 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-16 18:07:53 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-16 18:07:54 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-16 18:07:54 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-16 18:07:54 INFO  com.service.packages.Products - Started Products in 2.662 seconds (process running for 3.073)
+2025-11-16 18:11:18 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m25s517ms).
+2025-11-16 18:13:52 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-16 18:13:52 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-16 18:13:52 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2025-11-16 18:13:52 INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 210 ms
+2025-11-16 18:34:51 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m3s257ms).
+2025-11-16 18:41:01 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m39s626ms).
+2025-11-16 18:45:31 INFO  com.service.packages.controller.ProductController - Received request to add product with image: testCode
+2025-11-16 18:45:31 ERROR com.service.packages.controller.ProductController - Validation error: Invalid image format. Allowed formats: JPEG, PNG, GIF, WEBP
+2025-11-16 18:47:09 INFO  com.service.packages.controller.ProductController - Received request to add product with image: Test code
+2025-11-16 18:47:09 DEBUG com.service.packages.util.ImageUtil - Image converted to Base64 successfully. Size: 16450 bytes
+2025-11-16 18:47:09 INFO  com.service.packages.service.impl.ProductServiceImpl - Adding new product with code: Test code
+2025-11-16 18:47:09 INFO  com.service.packages.service.impl.ProductServiceImpl - Product added successfully with ID: 2
+2025-11-16 18:48:31 INFO  com.service.packages.controller.ProductController - Received search request - name: Test name1, code: null
+2025-11-16 18:48:31 INFO  com.service.packages.service.impl.ProductServiceImpl - Searching products with name: Test name1, code: null
+2025-11-16 18:48:31 INFO  com.service.packages.service.impl.ProductServiceImpl - Found 0 products matching search criteria
+2025-11-16 18:48:53 INFO  com.service.packages.controller.ProductController - Received search request - name: Test name, code: null
+2025-11-16 18:48:53 INFO  com.service.packages.service.impl.ProductServiceImpl - Searching products with name: Test name, code: null
+2025-11-16 18:48:53 INFO  com.service.packages.service.impl.ProductServiceImpl - Found 1 products matching search criteria
+2025-11-16 18:49:05 INFO  com.service.packages.controller.ProductController - Received search request - name: Test namehihiuh, code: null
+2025-11-16 18:49:05 INFO  com.service.packages.service.impl.ProductServiceImpl - Searching products with name: Test namehihiuh, code: null
+2025-11-16 18:49:05 INFO  com.service.packages.service.impl.ProductServiceImpl - Found 0 products matching search criteria
+2025-11-16 18:50:06 INFO  com.service.packages.controller.ProductController - Received search request - name: Test , code: null
+2025-11-16 18:50:06 INFO  com.service.packages.service.impl.ProductServiceImpl - Searching products with name: Test , code: null
+2025-11-16 18:50:06 INFO  com.service.packages.service.impl.ProductServiceImpl - Found 1 products matching search criteria
+2025-11-16 18:50:25 INFO  com.service.packages.controller.ProductController - Received search request - name: null, code: test code
+2025-11-16 18:50:25 INFO  com.service.packages.service.impl.ProductServiceImpl - Searching products with name: null, code: test code
+2025-11-16 18:50:25 INFO  com.service.packages.service.impl.ProductServiceImpl - Found 1 products matching search criteria
+2025-11-16 19:02:45 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m14s161ms).
+2025-11-16 19:06:46 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m392ms).
+2025-11-16 19:10:12 ERROR com.service.packages.exception.GlobalExceptionHandler - Runtime exception: Failed to convert value of type 'java.lang.String' to required type 'java.time.LocalDateTime'; Failed to convert from type [java.lang.String] to type [@io.swagger.v3.oas.annotations.Parameter @org.springframework.web.bind.annotation.RequestParam @org.springframework.format.annotation.DateTimeFormat java.time.LocalDateTime] for value [2025-11-10]
+2025-11-16 19:10:29 ERROR com.service.packages.exception.GlobalExceptionHandler - Runtime exception: Failed to convert value of type 'java.lang.String' to required type 'java.time.LocalDateTime'; Failed to convert from type [java.lang.String] to type [@io.swagger.v3.oas.annotations.Parameter @org.springframework.web.bind.annotation.RequestParam @org.springframework.format.annotation.DateTimeFormat java.time.LocalDateTime] for value [2025-11-10]
+2025-11-16 19:16:17 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m31s161ms).
+2025-11-16 19:18:15 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s277ms).
+2025-11-16 19:32:36 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m21s524ms).
+2025-11-16 19:36:54 ERROR com.service.packages.exception.GlobalExceptionHandler - Runtime exception: Failed to convert value of type 'java.lang.String' to required type 'java.time.LocalDateTime'; Failed to convert from type [java.lang.String] to type [@io.swagger.v3.oas.annotations.Parameter @org.springframework.web.bind.annotation.RequestParam @org.springframework.format.annotation.DateTimeFormat java.time.LocalDateTime] for value [2025-11-01 12:00:00]
+2025-11-16 19:37:22 INFO  com.service.packages.controller.ProductController - Received request to generate product report from 2025-11-01T12:00 to 2025-11-17T12:00
+2025-11-16 19:37:22 INFO  com.service.packages.service.impl.ProductServiceImpl - Generating product report from 2025-11-01T12:00 to 2025-11-17T12:00
+2025-11-16 19:37:23 INFO  com.service.packages.service.impl.ProductServiceImpl - Found 1 products for report
+2025-11-16 19:37:23 INFO  com.service.packages.service.impl.ReportServiceImpl - Generating PDF report for 1 products
+2025-11-16 19:37:23 INFO  com.service.packages.service.impl.ReportServiceImpl - PDF report generated successfully. Size: 1892 bytes
+2025-11-16 19:40:53 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s429ms).
+2025-11-16 19:41:55 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m1s139ms).
+2025-11-16 19:46:15 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m50s856ms).
+2025-11-16 19:59:48 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m32s595ms).
+2025-11-16 20:04:18 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m30s167ms).
+2025-11-16 20:10:18 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m59s323ms).
+2025-11-16 20:34:12 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m24s1ms).
+2025-11-16 20:45:41 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s857ms).
+2025-11-16 20:45:44 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-16 20:45:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-16 20:45:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-16 20:56:46 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-16 20:56:46 INFO  com.service.packages.Products - Starting Products using Java 21.0.8 with PID 40308 (/Users/kameshchandima/Desktop/projects/product_adi/target/classes started by kameshchandima in /Users/kameshchandima/Desktop/projects/product_adi)
+2025-11-16 20:56:46 DEBUG com.service.packages.Products - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-16 20:56:46 INFO  com.service.packages.Products - No active profile set, falling back to 1 default profile: "default"
+2025-11-16 20:56:46 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-16 20:56:46 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2025-11-16 20:56:47 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-16 20:56:47 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-16 20:56:47 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-16 20:56:47 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-16 20:56:47 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-16 20:56:47 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 606 ms
+2025-11-16 20:56:47 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-16 20:56:47 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-16 20:56:47 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-16 20:56:47 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-16 20:56:47 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-16 20:56:47 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@474ce6b8
+2025-11-16 20:56:47 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-16 20:56:47 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-16 20:56:48 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-16 20:56:48 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-16 20:56:48 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-16 20:56:48 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-16 20:56:49 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-16 20:56:49 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-16 20:56:49 INFO  com.service.packages.Products - Started Products in 2.661 seconds (process running for 3.138)
+2025-11-16 21:00:58 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s575ms).
+2025-11-16 21:18:58 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-16 21:18:58 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-16 21:19:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-16 21:28:03 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-16 21:28:03 INFO  com.service.packages.Products - Starting Products using Java 22.0.1 with PID 52230 (/Users/kameshchandima/Desktop/projects/product_adi/target/classes started by kameshchandima in /Users/kameshchandima/Desktop/projects/product_adi)
+2025-11-16 21:28:03 DEBUG com.service.packages.Products - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-16 21:28:03 INFO  com.service.packages.Products - No active profile set, falling back to 1 default profile: "default"
+2025-11-16 21:28:04 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-16 21:28:04 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2025-11-16 21:28:04 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-16 21:28:04 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-16 21:28:04 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-16 21:28:04 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-16 21:28:04 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-16 21:28:04 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 599 ms
+2025-11-16 21:28:04 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-16 21:28:04 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-16 21:28:04 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-16 21:28:04 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-16 21:28:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-16 21:28:05 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64f3991e
+2025-11-16 21:28:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-16 21:28:05 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-16 21:28:05 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-16 21:28:05 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-16 21:28:05 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-16 21:28:06 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-16 21:28:06 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-16 21:28:06 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-16 21:28:06 INFO  com.service.packages.Products - Started Products in 2.857 seconds (process running for 3.412)
+2025-11-16 21:29:15 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-16 21:29:15 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-16 21:29:15 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2025-11-16 21:29:16 INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 269 ms
+2025-11-16 21:38:05 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-16 21:38:06 INFO  com.service.packages.Products - Starting Products using Java 22.0.1 with PID 54390 (/Users/kameshchandima/Desktop/projects/product_adi/target/classes started by kameshchandima in /Users/kameshchandima/Desktop/projects/product_adi)
+2025-11-16 21:38:06 DEBUG com.service.packages.Products - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-16 21:38:06 INFO  com.service.packages.Products - No active profile set, falling back to 1 default profile: "default"
+2025-11-16 21:38:06 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-16 21:38:06 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2025-11-16 21:38:06 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-16 21:38:06 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-16 21:38:06 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-16 21:38:06 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-16 21:38:06 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-16 21:38:06 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 717 ms
+2025-11-16 21:38:06 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-16 21:38:06 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-16 21:38:06 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-16 21:38:07 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-16 21:38:07 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-16 21:38:07 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60ae7cf2
+2025-11-16 21:38:07 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-16 21:38:07 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-16 21:38:07 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-16 21:38:08 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-16 21:38:08 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-16 21:38:08 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-16 21:38:08 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-16 21:38:08 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-16 21:38:08 INFO  com.service.packages.Products - Started Products in 2.977 seconds (process running for 3.611)
+2025-11-16 21:38:28 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-16 21:38:28 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-16 21:38:28 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-11-16 21:38:29 INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 161 ms
+2025-11-16 21:42:21 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-16 21:42:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-16 21:42:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-16 21:42:39 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-16 21:42:40 INFO  com.service.packages.Products - Starting Products using Java 22.0.1 with PID 55395 (/Users/kameshchandima/Desktop/projects/product_adi/target/classes started by kameshchandima in /Users/kameshchandima/Desktop/projects/product_adi)
+2025-11-16 21:42:40 DEBUG com.service.packages.Products - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-16 21:42:40 INFO  com.service.packages.Products - No active profile set, falling back to 1 default profile: "default"
+2025-11-16 21:42:40 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-16 21:42:40 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2025-11-16 21:42:40 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-16 21:42:40 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-16 21:42:40 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-16 21:42:40 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-16 21:42:40 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-16 21:42:40 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 590 ms
+2025-11-16 21:42:40 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-16 21:42:40 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-16 21:42:40 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-16 21:42:40 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-16 21:42:40 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-16 21:42:41 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11180750
+2025-11-16 21:42:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-16 21:42:41 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-16 21:42:41 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-16 21:42:41 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-16 21:42:41 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-16 21:42:42 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-16 21:42:42 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-16 21:42:42 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-16 21:42:42 INFO  com.service.packages.Products - Started Products in 2.54 seconds (process running for 3.006)
+2025-11-16 21:43:11 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-16 21:43:11 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-16 21:43:11 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-11-16 21:43:13 INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 282 ms
+2025-11-16 21:44:08 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-16 21:44:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-16 21:44:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-16 21:48:22 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-16 21:48:22 INFO  com.service.packages.Products - Starting Products using Java 22.0.1 with PID 56608 (/Users/kameshchandima/Desktop/projects/product_adi/target/classes started by kameshchandima in /Users/kameshchandima/Desktop/projects/product_adi)
+2025-11-16 21:48:22 DEBUG com.service.packages.Products - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-16 21:48:22 INFO  com.service.packages.Products - No active profile set, falling back to 1 default profile: "default"
+2025-11-16 21:48:22 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-16 21:48:23 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2025-11-16 21:48:23 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-16 21:48:23 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-16 21:48:23 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-16 21:48:23 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-16 21:48:23 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-16 21:48:23 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 631 ms
+2025-11-16 21:48:23 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-16 21:48:23 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-16 21:48:23 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-16 21:48:23 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-16 21:48:23 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-16 21:48:23 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@120411ec
+2025-11-16 21:48:23 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-16 21:48:23 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-16 21:48:24 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-16 21:48:24 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-16 21:48:24 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-16 21:48:24 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-16 21:48:24 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-16 21:48:24 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-16 21:48:24 INFO  com.service.packages.Products - Started Products in 2.649 seconds (process running for 3.302)
+2025-11-16 21:50:13 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-16 21:50:13 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-16 21:50:13 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2025-11-16 21:50:13 INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 277 ms

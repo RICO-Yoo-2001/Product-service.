@@ -6,11 +6,13 @@ import com.service.packages.dto.response.ProductResponse;
 import com.service.packages.entity.Product;
 import com.service.packages.repository.ProductRepository;
 import com.service.packages.service.ProductService;
+import com.service.packages.service.ReportService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -21,15 +23,22 @@ import java.util.stream.Collectors;
 public class ProductServiceImpl implements ProductService {
 
     private final ProductRepository productRepository;
+    private final ReportService reportService;
 
     @Override
     public ProductResponse addProduct(ProductRequest productRequest) {
         log.info("Adding new product with code: {}", productRequest.getProdCode());
 
-        // Check if product code already exists
-        if (productRepository.existsByProdCode(productRequest.getProdCode())) {
+        // Check if product code already exists (only active products)
+        if (productRepository.existsByProdCodeAndStatus(productRequest.getProdCode(), "ACTIVE")) {
             log.warn("Product with code {} already exists", productRequest.getProdCode());
             throw new RuntimeException("Product with code " + productRequest.getProdCode() + " already exists");
+        }
+
+        // Check if product name already exists (only active products)
+        if (productRepository.existsByProdNameAndStatus(productRequest.getProdName(), "ACTIVE")) {
+            log.warn("Product with name {} already exists", productRequest.getProdName());
+            throw new RuntimeException("Product with name " + productRequest.getProdName() + " already exists");
         }
 
         Product product = Product.builder()
@@ -38,6 +47,7 @@ public class ProductServiceImpl implements ProductService {
                 .prodDescription(productRequest.getProdDescription())
                 .prodImage(productRequest.getProdImage())
                 .prodCost(productRequest.getProdCost())
+                .status("ACTIVE")
                 .build();
 
         Product savedProduct = productRepository.save(product);
@@ -61,11 +71,19 @@ public class ProductServiceImpl implements ProductService {
         Long originalProdId = product.getProdId();
         log.debug("Updating product with original ID: {} (ID cannot be changed)", originalProdId);
 
-        // Check if product code is being changed and if new code already exists
+        // Check if product code is being changed and if new code already exists (only active products)
         if (!product.getProdCode().equals(productUpdateRequest.getProdCode())) {
-            if (productRepository.existsByProdCode(productUpdateRequest.getProdCode())) {
+            if (productRepository.existsByProdCodeAndStatus(productUpdateRequest.getProdCode(), "ACTIVE")) {
                 log.warn("Product with code {} already exists", productUpdateRequest.getProdCode());
                 throw new RuntimeException("Product with code " + productUpdateRequest.getProdCode() + " already exists");
+            }
+        }
+
+        // Check if product name is being changed and if new name already exists (only active products)
+        if (!product.getProdName().equals(productUpdateRequest.getProdName())) {
+            if (productRepository.existsByProdNameAndStatus(productUpdateRequest.getProdName(), "ACTIVE")) {
+                log.warn("Product with name {} already exists", productUpdateRequest.getProdName());
+                throw new RuntimeException("Product with name " + productUpdateRequest.getProdName() + " already exists");
             }
         }
 
@@ -103,6 +121,39 @@ public class ProductServiceImpl implements ProductService {
                 .collect(Collectors.toList());
     }
 
+    @Override
+    public ProductResponse softDeleteProduct(Long prodId) {
+        log.info("Soft deleting product with ID: {}", prodId);
+
+        Product product = productRepository.findById(prodId)
+                .orElseThrow(() -> {
+                    log.error("Product not found with ID: {}", prodId);
+                    return new RuntimeException("Product not found with ID: " + prodId);
+                });
+
+        if ("INACTIVE".equals(product.getStatus())) {
+            log.warn("Product with ID {} is already inactive", prodId);
+            throw new RuntimeException("Product is already inactive");
+        }
+
+        product.setStatus("INACTIVE");
+        Product updatedProduct = productRepository.save(product);
+        log.info("Product soft deleted successfully with ID: {}", updatedProduct.getProdId());
+
+        return mapToResponse(updatedProduct);
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public byte[] generateProductReport(LocalDateTime startDate, LocalDateTime endDate) {
+        log.info("Generating product report from {} to {}", startDate, endDate);
+        
+        List<Product> products = productRepository.findActiveProductsByDateRange(startDate, endDate);
+        log.info("Found {} products for report", products.size());
+
+        return reportService.generateProductReportPDF(products, startDate, endDate);
+    }
+
     private ProductResponse mapToResponse(Product product) {
         return ProductResponse.builder()
                 .prodId(product.getProdId())
@@ -111,6 +162,9 @@ public class ProductServiceImpl implements ProductService {
                 .prodDescription(product.getProdDescription())
                 .prodImage(product.getProdImage())
                 .prodCost(product.getProdCost())
+                .status(product.getStatus())
+                .createdAt(product.getCreatedAt())
+                .updatedAt(product.getUpdatedAt())
                 .build();
     }
 }
